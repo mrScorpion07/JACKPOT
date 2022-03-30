@@ -1,0 +1,221 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Sign Up Part Start
+================================================*/
+.sign_menu {
+    .menu_btn {
+        .active {
+            background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+            box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+            text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+        }
+    }
+}
+
+.sign_banner {
+    padding: 200px 0 80px !important;
+
+    .signup_form {
+        padding-top: 30px;
+
+        h3 {
+            @include fs($wh, 26px, 400, $anton);
+            padding-bottom: 7px
+        }
+
+        .sign_reg {
+            @include fs($wh, 16px, 400, $nunito);
+            padding-bottom: 50px;
+            position: relative;
+
+            &::after {
+                @include after_bl(30px, 0, 60px, 4px, $wh);
+                border-radius: 2px;
+            }
+        }
+
+        form {
+            .signup_inner {
+                .fast_input {
+                    margin-bottom: 30px;
+
+                    .sign_input_inner {
+                        position: relative;
+
+                        .name {
+                            width: 100%;
+                            background: transparent;
+                            border: none;
+                            border-bottom: 1px solid $wh;
+                            padding: 15px 30px 15px 4px;
+                            color: white;
+
+                            ::placeholder {
+                                @include fs($wh, 14px, 400, $nunito);
+                            }
+                        }
+
+                        i {
+                            color: $wh;
+                            position: absolute;
+                            right: 20px;
+                            top: 20px;
+                        }
+                    }
+
+                    .us_name {
+                        width: 100%;
+                        background: transparent;
+                        border: none;
+                        border-bottom: 1px solid $wh;
+                        padding: 15px 30px 15px 5px;
+                        color: white;
+
+                        ::placeholder {
+                            @include fs($wh, 14px, 400, $nunito);
+                        }
+                    }
+                }
+
+                .sign_input_inner {
+                    position: relative;
+
+                    .email {
+                        width: 100%;
+                        background: transparent;
+                        border: none;
+                        border-bottom: 1px solid $wh;
+                        padding: 15px 30px 15px 4px;
+                        color: white;
+                        margin-bottom: 30px;
+
+                        ::placeholder {
+                            @include fs($wh, 14px, 400, $nunito);
+                        }
+                    }
+
+                    i {
+                        color: $wh;
+                        position: absolute;
+                        right: 16px;
+                        top: 20px;
+                    }
+
+                    .pass {
+                        width: 100%;
+                        background: transparent;
+                        border: none;
+                        border-bottom: 1px solid $wh;
+                        padding: 15px 30px 15px 4px;
+                        color: white;
+                        margin-bottom: 30px;
+
+                        ::placeholder {
+                            @include fs($wh, 14px, 400, $nunito);
+                        }
+                    }
+                }
+
+                button {
+                    margin-top: 20px;
+                    margin-bottom: 25px;
+                    text-transform: capitalize;
+                    letter-spacing: 2px;
+                    width: 100%;
+                    border: 0;
+                    @include fs($wh, 20px, 400, $anton);
+                    padding: 15px 30px;
+                    line-height: 1;
+                    border-radius: 5px;
+                    background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                    box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                    text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                    transition: all linear .3s;
+
+                    &:hover {
+                        background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                        box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                        text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                    }
+                }
+
+                .new_acc {
+                    @include fs($wh, 16px, 400, $nunito);
+                    padding-top: 16px;
+
+                    a {
+                        text-transform: capitalize;
+                        color: #9b4cfa;
+                        text-shadow: 2px 2px 0 rgba(88, 19, 184, 0.8);
+                        transition: all linear .4s;
+                        padding-left: 5px;
+
+                        &:hover {
+                            color: #fa35d6;
+                            text-shadow: 2px 2px 0 rgba(166, 0, 133, 0.8);
+                        }
+                    }
+                }
+
+                .link {
+                    text-align: right;
+                    justify-content: right;
+
+                    span {
+                        @include fs($wh, 16px, 400, $nunito);
+                        padding-right: 26px;
+                        padding-top: 16px;
+                    }
+
+                    ul {
+                        padding-right: 12px;
+
+                        li {
+                            width: 50px;
+                            height: 50px;
+                            text-align: center;
+                            line-height: 50px;
+                            background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                            box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                            text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                            transition: all linear .4s;
+                            font-weight: 900;
+                            transition: all linear .3s;
+                            color: white;
+                            cursor: pointer;
+
+                            i {
+                                font-size: 18px;
+                                color: white;
+                            }
+
+                            &:first-child {
+                                margin-right: 20px;
+                                position: relative;
+
+                                &::after {
+                                    @include after_tr(0, -10px, 2px, 100%, #330080);
+                                }
+
+                            }
+
+                            &:hover {
+
+                                background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                                box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                                text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*==============================================
+                Sign Up Part End
+================================================*/

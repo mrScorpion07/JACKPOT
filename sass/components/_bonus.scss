@@ -1,0 +1,43 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Bonus Part Start
+================================================*/
+#bonus {
+    padding: 100px 0 100px;
+    background: $bg;
+
+    .bonus_text {
+        h2 {
+            @include fs(#fdb803, 48px, 400, $anton);
+            background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 40px #4d0148);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #4d0148;
+            padding-bottom: 30px;
+        }
+
+        h4 {
+            @include fs($wh, 26px, 600, $nunito);
+            padding-bottom: 25px;
+        }
+
+        p {
+            @include fs($wh, 20px, 400, $nunito);
+            line-height: 30px;
+
+            span {
+                display: block;
+                padding-top: 30px;
+            }
+        }
+    }
+}
+
+/*==============================================
+                Bonus Part End
+================================================*/

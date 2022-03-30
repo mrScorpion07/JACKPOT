@@ -1,0 +1,145 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+               About Video Part Start
+================================================*/
+#about_video {
+    padding: 176px 0 100px;
+    background: #0b001b;
+
+
+    .posi {
+        position: relative;
+    }
+
+    .flow_shad {
+        filter: drop-shadow(0px 6px 0px rgba(58, 0, 144, 1));
+    }
+
+    .game_flow {
+        clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: -296px;
+
+        .game_col {
+            padding: 45px 20px;
+            background: #6116d0;
+            box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+            background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
+            filter: drop-shadow(30px 10px 4px #4444dd);
+
+            .game_text {
+                h2 {
+                    @include fs(#fdb803, 50px, 400, $anton);
+                    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    filter: drop-shadow(0 0 40px #4d0148);
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #4d0148;
+                    margin-bottom: 15px
+                }
+
+                h3 {
+                    @include fs(#fff, 32px, 400, $anton);
+                    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+                    margin-bottom: 10px
+                }
+
+                p {
+                    @include fs(#fff, 16px, 400, $nunito);
+                }
+            }
+        }
+    }
+
+    .play_row {
+        padding-top: 100px;
+
+        .spin_text {
+            padding-top: 95px;
+            padding-left: 38px;
+
+            p {
+                @include fs(#fff, 16px, 400, $nunito);
+                line-height: 26px;
+                padding-bottom: 30px;
+
+                span {
+                    display: block;
+                    padding-top: 25px;
+                }
+            }
+
+            .btn {
+                @include fs($wh, 20px, 400, $anton);
+                padding: 15px 26px;
+                line-height: 1;
+                border-radius: 5px;
+                margin-left: 0;
+                background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                transition: all linear .3s;
+                border: none;
+
+                &:hover {
+                    background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                    box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                    text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                }
+
+            }
+
+            .play {
+                transition: all linear .4s;
+                margin-left: 25px;
+                margin-top: 2px;
+
+                i {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 50px;
+                    background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                    box-shadow: 0 3px 0 0 rgba(58, 0, 144, 1);
+                    text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                    transition: all linear .4s;
+                    color: white;
+                    font-size: 16px;
+                }
+
+                span {
+                    @include fs(#ffffff, 16px, 400, $nunito);
+                    transition: all linear .4s;
+                    padding-left: 10px;
+                }
+
+                &:hover {
+                    i {
+                        background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                        box-shadow: 0 3px 0 0 rgba(102, 19, 85, 1);
+                        text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                        color: white;
+                    }
+
+                    span {
+                        color: #a60084;
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+
+/*==============================================
+              About Video Part End
+================================================*/

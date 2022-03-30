@@ -1,0 +1,47 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Log In Part Start
+================================================*/
+.signup_form {
+    .link5 {
+        justify-content: left !important;
+
+        a {
+            @include fs($wh, 16px, 400, $nunito);
+            padding-top: 16px;
+            transition: all linear .3s;
+            text-shadow: 2px 2px 0 rgba(88, 19, 184, 0.8);
+
+            &:hover {
+                color: #fa35d6;
+                text-shadow: 2px 2px 0 rgba(166, 0, 133, 0.8);
+            }
+        }
+    }
+
+    .new_accc {
+        @include fs($wh, 16px, 400, $nunito);
+        padding-top: 16px;
+        padding-left: 56px;
+
+        a {
+            text-transform: capitalize;
+            color: #9b4cfa;
+            text-shadow: 2px 2px 0 rgba(88, 19, 184, 0.8);
+            transition: all linear .4s;
+            padding-left: 5px;
+
+            &:hover {
+                color: #fa35d6;
+                text-shadow: 2px 2px 0 rgba(166, 0, 133, 0.8);
+            }
+        }
+    }
+}
+
+
+/*==============================================
+                Log In Part End
+================================================*/

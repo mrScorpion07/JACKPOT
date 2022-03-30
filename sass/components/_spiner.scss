@@ -1,0 +1,61 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Spiner Part Start
+================================================*/
+#spin {
+    background: $bg;
+    padding: 95px 0 60px;
+
+    .spin_text {
+        padding-top: 78px;
+        padding-left: 125px;
+
+        h2 {
+            @include fs(#fdb803, 48px, 400, $anton);
+            background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 40px #4d0148);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #4d0148;
+            padding-bottom: 50px
+        }
+
+        p {
+            @include fs($wh, 16px, 400, $nunito);
+            line-height: 26px;
+
+            span {
+                display: block;
+                padding-top: 20px
+            }
+        }
+
+        a {
+            @include fs($wh, 20px, 400, $anton);
+            padding: 15px 26px;
+            line-height: 1;
+            border-radius: 5px;
+            margin-left: 15px;
+            background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+            box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+            text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+            transition: all linear .3s;
+            margin-top: 38px;
+            margin-left: 0;
+
+            &:hover {
+                background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+            }
+        }
+    }
+}
+
+/*==============================================
+                Spiner Part End
+================================================*/

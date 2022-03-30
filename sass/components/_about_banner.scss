@@ -1,0 +1,37 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+               About Banner Part Start
+================================================*/
+#about_banner {
+    padding: 180px 0 210px;
+    background: $bg;
+
+    .about_text {
+        h2 {
+            @include fs(#fdb803, 48px, 400, $anton);
+            @include fes();
+            padding-bottom: 7px
+        }
+
+        a {
+            @include fs($wh, 24px, 400, $anton);
+            text-shadow: 3px 6px 0px #1f004f;
+        }
+
+        .active {
+            color: #ff39dc;
+        }
+
+        span {
+            @include fs($wh, 24px, 400, $anton);
+            text-shadow: 3px 6px 0px #1f004f;
+            padding: 0 5px;
+        }
+
+    }
+}
+/*==============================================
+              About Banner Part End
+================================================*/

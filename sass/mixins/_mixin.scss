@@ -1,0 +1,88 @@
+@mixin fs($fc, $fs, $fw, $ff) {
+    color: $fc;
+    font-size: $fs;
+    font-weight: $fw;
+    font-family: $ff;
+}
+
+@mixin after_tl($t, $l, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    top: $t;
+    left: $l;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin after_tr($t, $r, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    top: $t;
+    right: $r;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin after_bl($b, $l, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    bottom: $b;
+    left: $l;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin after_br($b, $r, $w, $h, $bg) {
+    position: absolute;
+    content: '';
+    bottom: $b;
+    right: $r;
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin middle() {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin flow_shad {
+    filter: drop-shadow(0px 6px 0px rgba(58, 0, 144, 1));
+}
+
+@mixin btn() {
+    a {
+        @include fs($wh, 20px, 400, $anton);
+        padding: 15px 26px;
+        line-height: 1;
+        border-radius: 5px;
+        margin-left: 15px;
+        background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+        box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+        text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+        transition: all linear .3s;
+
+        &:hover {
+            background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+            box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+            text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+        }
+    }
+}
+
+@mixin fes() {
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 40px #4d0148);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #4d0148;
+}

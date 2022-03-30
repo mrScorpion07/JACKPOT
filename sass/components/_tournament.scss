@@ -1,0 +1,209 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Tournament Part Start
+================================================*/
+#tournament {
+    background: $bg;
+    padding: 95px 0 95px;
+
+    .tournament_head {
+        h2 {
+            @include fs(#fdb803, 40px, 400, $anton);
+            @include fes();
+            position: relative;
+
+            &::after {
+                @include after_bl(-22px, 0, 100%, 3px, #000000);
+                background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+
+            }
+
+            .effect {
+                position: absolute;
+                left: 0;
+                bottom: -43px;
+                z-index: 99;
+                animation: lineshine 10s infinite;
+                animation-direction: alternate;
+
+                @keyframes lineshine {
+                    form {
+                        left: 0;
+                    }
+
+                    to {
+                        left: 90%;
+                    }
+                }
+            }
+        }
+    }
+
+    .tournament_left {
+        margin-top: 60px;
+
+        .card {
+            background: #150035;
+            border: none;
+            background-clip: inherit;
+
+            &.add_border {
+                border: 1px solid #fcb100;
+                border-radius: 0;
+            }
+
+            .card-header {
+                padding: 0;
+
+                button {
+                    text-decoration: none !important;
+                    padding-left: 30px !important;
+                    width: 100%;
+                    text-align: left;
+                    margin-top: 25px;
+
+                    i {
+                        float: right;
+                        color: #fffeff;
+                        padding-right: 50px;
+                        padding-top: 9px;
+                    }
+
+                    span {
+                        @include fs(#fffeff, 20px, 400, $nunito);
+
+                    }
+                }
+
+                button:focus {
+                    outline: 0 !important;
+                }
+            }
+
+            .card-body {
+                padding-left: 30px;
+
+                p {
+                    @include fs(#fffeff, 16px, 400, $nunito);
+                    line-height: 26px;
+                    padding-bottom: 10px;
+                }
+            }
+
+            .btn {
+                padding: 0;
+            }
+
+            .btn:not(:disabled):not(.disabled) {
+                padding-bottom: 20px;
+            }
+
+            .btn-check:focus+.btn,
+            .btn:focus {
+                outline: 0;
+                box-shadow: 0 0 0 0 #000 !important;
+            }
+
+        }
+
+        .add_border:not(:first-of-type):not(:last-of-type) {
+            border-bottom: 1px solid #fcb100 !important;
+        }
+    }
+
+    .counter_text {
+        margin-top: 80px;
+
+        h4 {
+            @include fs($wh, 20px, 600, $nunito);
+        }
+    }
+
+    .count_row {
+        margin-bottom: 40px;
+    }
+
+    .countdown {
+        float: left;
+        margin-top: 60px;
+        border: 1px solid #fcb100;
+        background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        height: 70px;
+        width: 70px;
+        border-radius: 5px;
+        text-align: center;
+        // line-height: 70px;
+        padding-top: 5px;
+        margin-left: 18px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        span {
+            @include fs(#fcb100, 20px, 600, $nunito);
+
+        }
+
+        p {
+            @include fs(#fcb100, 20px, 600, $nunito);
+            background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .tourna_scroll {
+        padding-right: 15px;
+        height: 320px;
+
+        .scrl_pad {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            position: relative;
+
+            .tourna_scoll_name {
+                margin-right: 10px;
+
+                h4 {
+                    @include fs($wh, 16px, 400, $nunito);
+                }
+            }
+
+            .tourna_scoll_point {
+                text-align: right;
+                padding-right: 15px;
+
+                p {
+                    @include fs($wh, 16px, 400, $nunito);
+                }
+            }
+
+        }
+
+        .boder_after {
+            // position: relative;
+
+            &::after {
+                @include after_bl(-5px, 0, 100%, 3px, #000000);
+                // color: #fcb100;
+                background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+            }
+        }
+
+        .nicescroll-rails {
+            top: 3794.28px;
+        }
+    }
+
+}
+
+/*==============================================
+                Tournament Part End
+================================================*/

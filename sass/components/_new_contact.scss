@@ -1,0 +1,87 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+             New Contact Part Start
+================================================*/
+.new_contact {
+    padding: 220px 0 100px;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        @include after_tl(0, 0, 100%, 100%, rgba(21, 0, 53, 0.8));
+        z-index: -1;
+    }
+
+    .contact_row {
+        padding-top: 50px;
+    }
+
+    .contact_address {
+        .con_icon {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 110px;
+            background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+            box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+            text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+            transition: all linear .4s;
+            transition: all linear .3s;
+            cursor: pointer;
+            z-index: 999;
+            border-radius: 5px;
+
+            .map {
+                i {
+                    font-size: 40px;
+                    color: $wh;
+                }
+            }
+
+            &:hover {
+
+                background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                color: white;
+            }
+        }
+    }
+
+    .address_text {
+        padding-left: 30px;
+
+        h3 {
+            @include fs($wh, 24px, 600, $anton);
+            padding-bottom: 15px;
+            letter-spacing: 1px
+        }
+
+        p {
+            @include fs($wh, 20px, 400, $nunito);
+
+            span {
+                display: block;
+            }
+        }
+
+        ul {
+            li {
+                a {
+                    @include fs($wh, 20px, 400, $nunito);
+                    transition: all linear .4s;
+
+                    &:hover {
+                        color: #ab048a;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*==============================================
+            New Contact Part End
+================================================*/

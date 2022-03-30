@@ -1,0 +1,27 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Error Part Start
+================================================*/
+.error_menu {
+    background: #0b001b !important;
+    padding-bottom: 30px !important;
+}
+
+.error {
+    background: $bg !important;
+    padding-bottom: 110px !important;
+
+    .error_main {
+        .error_btn {
+            margin-top: 60px;
+            @include btn();
+        }
+    }
+}
+
+
+/*==============================================
+                Error Part End
+================================================*/

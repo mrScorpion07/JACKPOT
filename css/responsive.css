@@ -1,0 +1,2759 @@
+@media (max-width: 575px) {
+
+    /* Nav Bar Part Start */
+    .main_menu .logo img {
+        height: 76px;
+        margin-top: -7px;
+        margin-left: 8px;
+    }
+
+    .main_menu {
+        height: 80px;
+    }
+
+    .navbar button i {
+        color: #fcb100;
+        padding: 7px 10px;
+        border: 1px solid #fcb100;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        outline: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .menu_list {
+        margin-top: 0px;
+        background: #000;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        text-align: center;
+        border-top: 1px solid #fcb100;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+
+    .main_menu ul {
+        margin-top: 0px;
+    }
+
+    .main_menu .menu_btn {
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+
+    .main_menu .menu_btn a {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    /* Nav Bar Part End */
+
+    /* Banner Part Start */
+    #banner {
+        padding: 130px 0 180px;
+    }
+
+    #banner .banner_text {
+        padding-left: 0px;
+    }
+
+    .banner_text {
+        text-align: center;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 200px;
+        margin-left: 0;
+        margin-top: -18px;
+    }
+
+    #banner .banner_text p {
+        margin-top: -25px;
+        margin-left: 0;
+    }
+
+    #banner .banner_text .btn {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    #banner .banner_text .btn a {
+        font-size: 16px;
+        padding: 12px 22px;
+        margin-left: 0px;
+    }
+
+    /* Banner Part End */
+
+    /* Game Part Start */
+    #games .game_flow {
+        top: -300px;
+    }
+
+    #games .game_flow .game_col {
+        padding: 40px 15px;
+    }
+
+    .flow_slider {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #games .game_flow .game_col .game_text h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #games .game_flow .game_col .game_text h3 {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    #games .game_flow .game_col .game_text p {
+        font-size: 14px;
+    }
+
+    #games .game_head {
+        margin-top: -60px;
+        padding-bottom: 30px;
+    }
+
+    #games .game_head h3 {
+        font-size: 30px;
+    }
+
+    #games .game_row .mySwiper .swiper-button-prev {
+        display: none;
+    }
+
+    #games .game_row .mySwiper .swiper-button-next {
+        display: none;
+    }
+
+    #games .game_row .mySwiper .swiper-wrapper .swiper-slide .overlay .overlay_text h3 {
+        font-size: 18px;
+        padding-left: 22px;
+        padding-bottom: 14px;
+    }
+
+    #games .game_row .mySwiper .swiper-wrapper .swiper-slide .overlay .overlay_text a {
+        font-size: 16px;
+        padding: 10px 16px;
+        margin-left: 25px;
+    }
+
+    #games .game_row .mySwiper .swiper-wrapper .swiper-slide-active {
+        transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1.1) !important;
+    }
+
+    #games {
+        padding: 176px 0 40px;
+    }
+
+    /* Game Part End */
+
+    /* Spin Part Start */
+    #spin {
+        padding: 65px 0 60px;
+    }
+
+    #spin .spin_text {
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+
+    #spin .spin_text h2 {
+        font-size: 30px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+
+    #spin .spin_text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #spin .spin_text p span {
+        padding-top: 10px;
+    }
+
+    #spin .spin_text a {
+        font-size: 18px;
+        padding: 12px 22px;
+        margin-left: 88px;
+        margin-top: 25px;
+    }
+
+    /* Spin Part End */
+
+    /* Member Part Start */
+    #member .member_head h2 {
+        font-size: 30px;
+        padding-bottom: 60px;
+    }
+
+    #member {
+        padding: 50px 0 35px;
+    }
+
+    #member .price_plan {
+        padding: 16px 0 40px;
+        margin-bottom: 80px;
+    }
+
+    #member .price_plan .price_head h2 {
+        font-size: 18px;
+        padding: 18px 0;
+        top: -70px;
+    }
+
+    #member .price_plan h3 {
+        font-size: 28px;
+        padding-top: 22px;
+        padding-bottom: 10px;
+    }
+
+    #member .price_plan h4 {
+        font-size: 42px;
+        padding-bottom: 4px;
+    }
+
+    #member .price_plan p {
+        padding-bottom: 16px;
+    }
+
+    #member .price_plan ul li {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+
+    #member .price_plan .price_join a {
+        font-size: 16px;
+        padding: 16px 30px;
+    }
+
+    /* Member Part End */
+
+    /* Tournament Part Start */
+    #tournament {
+        padding: 45px 0 45px;
+    }
+
+    #tournament .tournament_head h2 {
+        font-size: 26px;
+    }
+
+    #tournament .tournament_head h2 .effect {
+        bottom: -34px;
+    }
+
+    #tournament .tournament_left .card .card-header button {
+        padding-left: 15px !important;
+        margin-top: 12px;
+    }
+
+    #tournament .tournament_left .card .card-header button span {
+        font-size: 13px;
+    }
+
+    #tournament .tournament_left .card .card-header button i {
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+
+    #tournament .tournament_left .card .btn:not(:disabled):not(.disabled) {
+        padding-bottom: 12px;
+    }
+
+    #tournament .tournament_left .card .card-body {
+        padding: .5rem 1rem;
+    }
+
+    #tournament .tournament_left .card .card-body p {
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+
+    #tournament .head2 h2 {
+        font-size: 26px;
+        padding-top: 22px;
+    }
+
+    #tournament .counter_text {
+        margin-top: 50px;
+    }
+
+    #tournament .countdown {
+        margin-top: 35px;
+    }
+
+    #tournament .count_row {
+        margin-bottom: 30px;
+    }
+
+    element {
+        top: 4710.87px;
+    }
+
+    #tournament .tourna_scroll .scrl_pad .tourna_scoll_name {
+        margin-right: 0px;
+    }
+
+    /* Tournament Part End */
+
+    /* Payment Part Start */
+    #payment .subscribe h3 {
+        font-size: 26px;
+        padding-bottom: 12px;
+    }
+
+    #payment .subscribe .pay_form input {
+        height: 38px;
+    }
+
+    #payment .subscribe .pay_form .pay_btn {
+        right: 12px;
+        height: 38px;
+    }
+
+    #payment .payment_method h3 {
+        font-size: 26px;
+        padding-bottom: 16px;
+        padding-top: 15px;
+    }
+
+    #payment .payment_method ul li a img {
+        width: 50px;
+    }
+
+    #payment .payment_method ul li {
+        padding-right: 8px;
+    }
+
+    /* Payment Part End */
+
+    /* Footer Part Start */
+    #footer {
+        padding: 40px 0 40px;
+    }
+
+    #footer .foot_left h2 {
+        font-size: 26px;
+        padding-bottom: 16px;
+    }
+
+    #footer .foot_left p {
+        padding-bottom: 18px;
+    }
+
+    #footer .foot_left ul li {
+        width: 42px;
+        height: 42px;
+        line-height: 40px;
+    }
+
+    #footer .foot_mid h2 {
+        font-size: 26px;
+        padding-bottom: 12px;
+        padding-top: 25px;
+    }
+
+    #footer .foot_mid .link1 {
+        width: 47%;
+    }
+
+    #footer .foot_mid .link2 {
+        width: 47%;
+    }
+
+    #footer .foot_mid .link1 ul li {
+        padding-bottom: 12px;
+    }
+
+    #footer .foot_last h2 {
+        font-size: 26px;
+        padding-bottom: 20px;
+        padding-top: 28px;
+    }
+
+    #foot_bot .bot_text p {
+        font-size: 14px;
+    }
+
+    .bc_top {
+        width: 42px;
+        height: 42px;
+        line-height: 40px;
+        right: 20px;
+        bottom: 55px;
+        font-size: 30px;
+    }
+
+    /* Footer Part End */
+
+    /* =======================
+          Home Part End
+    ========================== */
+
+
+    /* ======================
+        About Part Start
+    ========================= */
+
+    /* About Banner Start  */
+    #about_banner {
+        padding: 125px 0 155px;
+    }
+
+    #about_banner .about_text h2 {
+        font-size: 30px;
+        padding-bottom: 6px;
+    }
+
+    #about_banner .about_text a {
+        font-size: 18px;
+    }
+
+    #about_banner .about_text span {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+
+    #about_banner .about_text a {
+        font-size: 16px;
+    }
+
+    #about_video .game_flow .game_col {
+        padding: 36px 20px;
+    }
+
+    #about_video .game_flow .game_col .game_text h2 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+    #about_video .game_flow .game_col .game_text h3 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+
+    #about_video .game_flow .game_col .game_text p {
+        font-size: 14px;
+    }
+
+    /* About Banner End  */
+
+    /* About Video Start  */
+    #about_video {
+        padding: 176px 0 70px;
+    }
+
+    #about_video .play_row {
+        padding-top: 0px;
+    }
+
+    #about_video .game_flow {
+        top: -270px;
+    }
+
+    #about_video .play_row .spin_text {
+        padding-top: 45px;
+        padding-left: 5px;
+    }
+
+    #about_video .play_row .spin_text p span {
+        padding-top: 20px;
+    }
+
+    #about_video .play_row .spin_text .btn {
+        font-size: 18px;
+        padding: 13px 22px;
+    }
+
+    #about_video .play_row .spin_text .play {
+        margin-left: 13px;
+    }
+
+    /* About Video End  */
+
+    /* About Game Start */
+    #about_game {
+        padding: 60px 0 90px;
+    }
+
+    #about_game .game_head h3 {
+        font-size: 30px;
+    }
+
+    #about_game .game_head {
+        padding-bottom: 40px;
+    }
+
+    #about_game .about_game_slider .slick-dots {
+        left: 31%;
+    }
+
+    #about_game .about_game_slider .game_img .game_overly .game_text h3 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    #about_game .about_game_slider .game_img .game_overly .game_text a {
+        font-size: 18px;
+        padding: 13px 23px;
+    }
+
+    /* About Game End */
+
+    /* ======================
+        About Part End
+    ========================= */
+
+
+    /* ======================
+        Promotion Part Start
+    ========================= */
+    #about_video .promotion_flow {
+        top: -115px;
+    }
+
+    .promo .pro_banner {
+        padding: 600px 0 0px;
+        background: none !important;
+        text-align: center;
+    }
+
+    .promo .pro_banner .promo_banner_text h1 {
+        font-size: 130px;
+        padding-top: 50px;
+    }
+
+    .promo .pro_banner .promo_banner_left h2 {
+        font-size: 60px;
+        position: inherit;
+        left: 50%;
+        top: -470px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 {
+        font-size: 45px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 span {
+        font-size: 75px;
+    }
+
+
+    .promo .pro_banner .promo_banner_text a {
+        margin-left: 0px;
+        width: 91%;
+    }
+
+    #promo_player .pro_player_offer .pro_offer1 {
+        position: absolute;
+        left: 5px;
+        top: -25px;
+        animation: inherit;
+    }
+
+    #promo_player .pro_player_offer .pro_offer2 {
+        position: absolute;
+        top: 224px;
+        right: 20px;
+        animation: inherit;
+    }
+
+    #promo_player .pro_player_offer .pro_offer3 {
+        position: absolute;
+        left: 6px;
+        bottom: -150px;
+        animation: inherit;
+    }
+
+    #promo_player .pro_player_offer .pro_offer4 {
+        position: absolute;
+        left: 5px;
+        animation: inherit;
+        top: 728px;
+    }
+
+    #promo_player .promo_player_text {
+        padding-top: 430px;
+    }
+
+    #promo_player .promo_player_text h2 {
+        font-size: 25px;
+    }
+
+    #promo_player .promo_player_text ul {
+        padding-top: 25px;
+    }
+
+    #promo_player .promo_player_text ul li {
+        font-size: 16px;
+        padding-bottom: 18px;
+    }
+
+    #promo_player {
+        padding: 60px 0 40px;
+    }
+
+    #bonus .bonus_text h2 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    #bonus {
+        padding: 50px 0 50px;
+    }
+
+    #bonus .bonus_text h4 {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    #bonus .bonus_text p {
+        font-size: 16px;
+    }
+
+    #bonus .bonus_text p span {
+        padding-top: 10px;
+    }
+
+    /* ======================
+        Promotion Part End
+    ========================= */
+
+
+    /* ======================
+        Member Part End
+    ========================= */
+    .new_member .member_row1 {
+        padding-top: 0px;
+    }
+
+    .new_member .price_plan {
+        padding: 16px 0 40px;
+        margin-bottom: 80px;
+    }
+
+    .new_member .price_plan .price_head h2 {
+        font-size: 18px;
+        padding: 18px 0;
+        top: -70px;
+    }
+
+    .new_member .price_plan h3 {
+        font-size: 28px;
+        padding-top: 22px;
+        padding-bottom: 10px;
+    }
+
+    .new_member .price_plan h4 {
+        font-size: 42px;
+        padding-bottom: 4px;
+    }
+
+    .new_member .price_plan p {
+        padding-bottom: 16px;
+    }
+
+    .new_member .price_plan ul li {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+
+    .new_member .price_plan .price_join a {
+        font-size: 16px;
+        padding: 16px 30px;
+    }
+
+    .new_member .member_row2 {
+        padding-top: 35px;
+    }
+
+    .new_member {
+        padding: 176px 0 30px !important;
+    }
+
+    /* ======================
+        Member Part End
+    ========================= */
+
+
+    /* ======================
+        Contact Part Start
+    ========================= */
+    .new_contact .contact_row {
+        padding-top: 0px;
+    }
+
+    .new_contact .contact_address .con_icon {
+        width: 75px;
+        height: 75px;
+        line-height: 80px;
+    }
+
+    .new_contact .contact_address .con_icon .map i {
+        font-size: 31px;
+    }
+
+    .new_contact .address_text {
+        padding-left: 0px;
+    }
+
+    .new_contact .address_text h3 {
+        font-size: 20px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+    }
+
+    .new_contact .contact_row .contact_address {
+        padding-bottom: 30px;
+    }
+
+    .new_contact .address_text p {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Nunito", sans-serif;
+        padding-left: 16px;
+    }
+
+    .new_contact .address_text ul li a {
+        font-size: 18px;
+    }
+
+    .new_contact .address_text ul {
+        padding-left: 16px;
+    }
+
+    /* ======================
+        Contact Part End
+    ========================= */
+
+
+    /* ======================
+        Error 404 Part End
+    ========================= */
+    .error .error_main img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .error .error_main .error_btn a {
+        margin-left: 0px;
+    }
+
+    .error {
+        padding-bottom: 55px !important;
+    }
+
+    /* ======================
+        Error 404 Part End
+    ========================= */
+
+
+    /* ======================
+        Sign Up Part Start
+    ========================= */
+    .sign_banner .signup_form {
+        padding-top: 0px;
+    }
+
+    .sign_banner .signup_form form .signup_inner button {
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+
+    .small_cl {
+        flex: auto;
+        width: 100%;
+    }
+
+    .sign_banner .signup_form form .signup_inner .new_acc {
+        font-size: 16px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .new_acc a {
+        padding-left: 4px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link {
+        justify-content: left;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link ul li {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link ul li:first-child::after {
+        top: 2px;
+        right: -13px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link ul li:first-child {
+        margin-right: 25px;
+        position: relative;
+    }
+
+    /* ======================
+        Sign Up Part End
+    ========================= */
+
+    /* ======================
+        Login  Part End
+    ========================= */
+    .signup_form .new_accc {
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    /* ======================
+        Login Part End
+    ========================= */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    /* Nav Bar Part Start */
+    .main_menu .logo img {
+        height: 76px;
+        margin-top: -7px;
+        margin-left: 8px;
+    }
+
+    .main_menu {
+        height: 80px;
+    }
+
+    .navbar button i {
+        color: #fcb100;
+        padding: 7px 10px;
+        border: 1px solid #fcb100;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        outline: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .menu_list {
+        margin-top: 0px;
+        background: #000;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        text-align: center;
+        border-top: 1px solid #fcb100;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+
+    .main_menu ul {
+        margin-top: 0px;
+    }
+
+    .main_menu .menu_btn {
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+
+    .main_menu .menu_btn a {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    /* Nav Bar Part End */
+
+    /* Banner Part Start */
+    #banner {
+        padding: 140px 0 190px;
+    }
+
+    #banner .banner_text {
+        padding-left: 0px;
+    }
+
+    .banner_text {
+        text-align: center;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 305px;
+        margin-left: 0;
+        margin-top: -33px;
+    }
+
+    #banner .banner_text p {
+        margin-top: -30px;
+        margin-left: 0;
+    }
+
+    #banner .banner_text .btn {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    #banner .banner_text .btn a {
+        font-size: 18px;
+        padding: 13px 24px;
+        margin-left: 0px;
+    }
+
+    /* Banner Part End */
+
+
+    /* Game Part Start */
+
+    #games .game_head {
+        margin-top: -5px;
+        padding-bottom: 30px;
+    }
+
+    #games .game_head h3 {
+        font-size: 38px;
+    }
+
+    #games .game_row .mySwiper .swiper-button-prev {
+        display: none;
+    }
+
+    #games .game_row .mySwiper .swiper-button-next {
+        display: none;
+    }
+
+
+    #games {
+        padding: 186px 0 45px;
+    }
+
+    /* Game Part End */
+
+    /* Spin Part Start */
+    #spin {
+        padding: 65px 0 60px;
+    }
+
+    #spin .spin_text {
+        padding-top: 25px;
+        padding-left: 0px;
+    }
+
+    #spin .spin_img {
+        padding-top: 35px;
+    }
+
+    #spin .spin_text h2 {
+        font-size: 33px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+
+    #spin .spin_text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #spin .spin_text p span {
+        padding-top: 10px;
+        display: none;
+    }
+
+    #spin .spin_text a {
+        font-size: 18px;
+        padding: 12px 22px;
+        margin-left: 65px;
+        margin-top: 25px;
+    }
+
+    /* Spin Part End */
+
+
+    /* Member Part Start */
+    #member .member_head h2 {
+        font-size: 38px;
+        padding-bottom: 65px;
+    }
+
+    #member {
+        padding: 60px 0 40px;
+    }
+
+    #member .price_plan {
+        padding: 16px 0 40px;
+        margin-bottom: 80px;
+    }
+
+    #member .price_plan .price_head h2 {
+        font-size: 18px;
+        padding: 18px 0;
+        top: -70px;
+    }
+
+    #member .price_plan h3 {
+        font-size: 28px;
+        padding-top: 22px;
+        padding-bottom: 10px;
+    }
+
+    #member .price_plan h4 {
+        font-size: 42px;
+        padding-bottom: 4px;
+    }
+
+    #member .price_plan p {
+        padding-bottom: 16px;
+    }
+
+    #member .price_plan ul li {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+
+    #member .price_plan .price_join a {
+        font-size: 14px;
+        padding: 15px 22px;
+        left: 45%;
+        bottom: -16px;
+    }
+
+    /* Member Part End */
+
+    /* Tournament Part Start */
+    #tournament {
+        padding: 65px 0 55px;
+    }
+
+    #tournament .tournament_head h2 {
+        font-size: 34px;
+    }
+
+    #tournament .tournament_head h2 .effect {
+        bottom: -39px;
+    }
+
+    #tournament .tournament_left .card .card-header button {
+        padding-left: 15px !important;
+        margin-top: 12px;
+    }
+
+    #tournament .tournament_left .card .card-header button span {
+        font-size: 18px;
+    }
+
+    #tournament .tournament_left .card .card-header button i {
+        padding-right: 10px;
+        padding-top: 5px;
+    }
+
+    #tournament .tournament_left .card .btn:not(:disabled):not(.disabled) {
+        padding-bottom: 12px;
+    }
+
+    #tournament .tournament_left .card .card-body {
+        padding: .5rem 1rem;
+    }
+
+    #tournament .tournament_left .card .card-body p {
+        font-size: 16px;
+        padding-bottom: 6px;
+    }
+
+    #tournament .head2 h2 {
+        font-size: 34px;
+        padding-top: 22px;
+    }
+
+    #tournament .counter_text {
+        margin-top: 50px;
+    }
+
+    #tournament .countdown {
+        margin-top: 35px;
+    }
+
+    #tournament .count_row {
+        margin-bottom: 30px;
+    }
+
+    element {
+        top: 4710.87px;
+    }
+
+    #tournament .tourna_scroll .scrl_pad .tourna_scoll_name {
+        margin-right: 0px;
+    }
+
+
+    #tournament .tournament_left {
+        margin-top: 50px;
+    }
+
+    /* Tournament Part End */
+
+    /* Payment Part Start */
+    #payment .subscribe h3 {
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+
+    #payment .subscribe .pay_form input {
+        height: 38px;
+    }
+
+    #payment .subscribe .pay_form .pay_btn {
+        right: 56px;
+        height: 38px;
+    }
+
+    #payment .payment_method h3 {
+        font-size: 30px;
+        padding-bottom: 16px;
+        padding-top: 15px;
+    }
+
+    /* Payment Part End */
+
+    /* Footer Part Start */
+    #footer {
+        padding: 55px 0 50px;
+    }
+
+    #footer .foot_left h2 {
+        font-size: 30px;
+        padding-bottom: 16px;
+    }
+
+    #footer .foot_left p {
+        padding-bottom: 18px;
+    }
+
+    #footer .foot_left ul li {
+        width: 45px;
+        height: 45px;
+        line-height: 43px;
+    }
+
+    #footer .foot_mid h2 {
+        font-size: 30px;
+        padding-bottom: 12px;
+        padding-top: 25px;
+    }
+
+    #footer .foot_mid .link1 {
+        width: 47%;
+    }
+
+    #footer .foot_mid .link2 {
+        width: 47%;
+    }
+
+    #footer .foot_mid .link1 ul li {
+        padding-bottom: 12px;
+    }
+
+    #footer .foot_last h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-top: 28px;
+    }
+
+    #foot_bot .bot_text p {
+        font-size: 16px;
+    }
+
+    .bc_top {
+        width: 45px;
+        height: 45px;
+        line-height: 43px;
+        right: 20px;
+        bottom: 55px;
+        font-size: 32px;
+    }
+
+    /* Footer Part End */
+
+    /* ===========================
+             Home Part End
+    ============================== */
+
+
+    /* ============================
+            About Part Start
+    ================================ */
+    #about_video .play_row {
+        padding-top: 50px;
+    }
+
+    #about_game {
+        padding: 60px 0 95px;
+    }
+
+    #about_game .about_game_slider .slick-dots {
+        left: 39%;
+        bottom: -45px;
+    }
+
+    #about_game .about_game_slider .game_img .game_overly .game_text h3 {
+        font-size: 23px;
+    }
+
+    #about_game .about_game_slider .game_img .game_overly .game_text a {
+        font-size: 18px;
+        padding: 15px 22px;
+    }
+
+    #about_game .game_head h3 {
+        font-size: 35px;
+    }
+
+    /* ============================
+            About Part End
+    ================================ */
+    /* ============================
+            About Part End
+    ================================ */
+
+    /* ============================
+            Promotion Part Start
+    ================================ */
+    #about_video .promotion_flow {
+        top: -145px;
+    }
+
+    .promo .pro_banner {
+        padding: 600px 0 0px;
+        background: none !important;
+        text-align: center;
+    }
+
+    .promo .pro_banner .promo_banner_text h1 {
+        font-size: 138px;
+        padding-top: 51px;
+    }
+
+    .promo .pro_banner .promo_banner_left h2 {
+        font-size: 62px;
+        position: inherit;
+        left: 50%;
+        top: -470px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 {
+        font-size: 45px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 span {
+        font-size: 75px;
+    }
+
+    .promo .pro_banner .promo_banner_text a {
+        margin-left: 0px;
+        width: 95%;
+    }
+
+    #promo_player .pro_player_offer .pro_offer1 {
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+    }
+
+    #promo_player .pro_player_offer .pro_offer2 {
+        position: absolute;
+        right: -16px;
+    }
+
+    #promo_player .pro_player_offer .pro_offer3 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #promo_player .pro_player_offer .pro_offer4 {
+        position: absolute;
+        left: 0;
+    }
+
+    @keyframes players {
+        25% {
+            position: absolute;
+            left: 77%;
+            top: 170px;
+        }
+
+        50% {
+            position: absolute;
+            left: 50%;
+            top: 61.5%;
+            transform: translateX(-50%);
+        }
+
+        75% {
+            position: absolute;
+            left: 26.5%;
+            top: 170px;
+        }
+
+        100% {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes players2 {
+        25% {
+            position: absolute;
+            right: 23.5%;
+            top: 61.5%;
+        }
+
+        50% {
+            position: absolute;
+            right: 47%;
+            top: 170px;
+        }
+
+        75% {
+            position: absolute;
+            right: 23.5%;
+            top: 0;
+        }
+
+        100% {
+            position: absolute;
+            right: 0;
+            top: 170px;
+        }
+    }
+
+    @keyframes players3 {
+        25% {
+            position: absolute;
+            left: 26.5%;
+            bottom: 170px;
+        }
+
+        50% {
+            position: absolute;
+            left: 50%;
+            bottom: 340px;
+            transform: translateX(-50%);
+        }
+
+        75% {
+            position: absolute;
+            left: 73.5%;
+            bottom: 170px;
+        }
+
+        100% {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes players4 {
+        25% {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+
+        50% {
+            position: absolute;
+            left: 73.5%;
+            top: 170px;
+            transform: translateX(-50%);
+        }
+
+        75% {
+            position: absolute;
+            left: 50%;
+            top: 61.5%;
+            transform: translateX(-50%);
+        }
+
+        100% {
+            position: absolute;
+            left: 0;
+            top: 170px;
+        }
+    }
+
+
+    #promo_player .promo_player_text {
+        padding-top: 55px;
+    }
+
+    #promo_player .promo_player_text h2 {
+        font-size: 36px;
+    }
+
+    #promo_player .promo_player_text ul {
+        padding-top: 25px;
+    }
+
+    #promo_player .promo_player_text ul li {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+
+    #promo_player {
+        padding: 60px 0 40px;
+    }
+
+    #bonus .bonus_text h2 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    #bonus {
+        padding: 50px 0 50px;
+    }
+
+    #bonus .bonus_text h4 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    #bonus .bonus_text p {
+        font-size: 18px;
+    }
+
+    #bonus .bonus_text p span {
+        padding-top: 10px;
+    }
+
+    /* ============================
+            Promotion Part End
+    ================================ */
+
+    /* ============================
+            Games  Part Start
+    ================================ */
+    .new_games .game_img .game_overly .game_text a {
+        padding: 15px 25px;
+    }
+
+    /* ============================
+            Games Part End
+    ================================ */
+
+    /* ============================
+            Member Part Start
+    ================================ */
+    .new_member .member_row1 {
+        padding-top: 0px;
+    }
+
+    .new_member .price_plan {
+        padding: 16px 0 40px;
+        margin-bottom: 80px;
+    }
+
+    #about_banner .about_text h2 {
+        font-size: 38px;
+    }
+
+    .new_member .price_plan .price_head h2 {
+        font-size: 18px;
+        padding: 18px 0;
+        top: -70px;
+    }
+
+    .new_member .price_plan h3 {
+        font-size: 28px;
+        padding-top: 22px;
+        padding-bottom: 10px;
+    }
+
+    .new_member .price_plan h4 {
+        font-size: 42px;
+        padding-bottom: 4px;
+    }
+
+    .new_member .price_plan p {
+        padding-bottom: 16px;
+    }
+
+    .new_member .price_plan ul li {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+
+    .new_member .price_plan .price_join a {
+        font-size: 14px;
+        padding: 16px 21px;
+    }
+
+    .new_member .member_row2 {
+        padding-top: 35px;
+    }
+
+    .new_member {
+        padding: 176px 0 30px !important;
+    }
+
+    .up1 {
+        position: absolute;
+        top: 32.7%;
+        left: 50%;
+    }
+
+    /* ============================
+            Member Part End
+    ================================ */
+
+
+    /* ============================
+            Contact Part Start
+    ================================ */
+
+    .new_contact .contact_row {
+        padding-top: 0px;
+    }
+
+    .new_contact {
+        padding-bottom: 60px !important;
+    }
+
+    /* .new_contact .contact_address .con_icon {
+        width: 75px;
+        height: 75px;
+        line-height: 80px;
+    } */
+
+    /* .new_contact .contact_address .con_icon .map i {
+        font-size: 31px;
+    } */
+
+    .new_contact .address_text {
+        padding-left: 0px;
+    }
+
+    .new_contact .address_text h3 {
+        font-size: 26px;
+        padding-bottom: 10px;
+        padding-left: 24px;
+    }
+
+    .new_contact .contact_row .contact_address {
+        padding-bottom: 30px;
+    }
+
+    .new_contact .address_text p {
+        font-size: 20px;
+        padding-left: 21px;
+    }
+
+    .new_contact .address_text ul li a {
+        font-size: 20px;
+    }
+
+    .new_contact .address_text ul {
+        padding-left: 23px;
+    }
+
+    /* ======================
+        Contact Part End
+    ========================= */
+
+
+    /* ======================
+        Error 404 Part End
+    ========================= */
+    .error .error_main img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .error .error_main .error_btn a {
+        margin-left: 0px;
+    }
+
+    .error {
+        padding-bottom: 55px !important;
+    }
+
+    /* ======================
+        Error 404 Part End
+    ========================= */
+
+    /* ======================
+        Sign Up Part Start
+    ========================= */
+    .sign_banner .signup_form {
+        padding-top: 0px;
+    }
+
+    .sign_banner .signup_form form .signup_inner button {
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+
+    .small_cl {
+        flex: auto;
+        width: 100%;
+    }
+
+    .sign_banner .signup_form form .signup_inner .new_acc {
+        font-size: 16px;
+        padding-top: 12px;
+        padding-bottom: 10px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .new_acc a {
+        padding-left: 4px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link {
+        justify-content: left;
+        padding-top: 20px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link ul li {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link ul li:first-child::after {
+        top: 2px;
+        right: -13px;
+    }
+
+    .sign_banner .signup_form form .signup_inner .link ul li:first-child {
+        margin-right: 25px;
+        position: relative;
+    }
+
+    .signsm {
+        background: #0b001b !important;
+        padding: 200px 0 60px !important;
+    }
+
+    /* ======================
+        Sign Up Part End
+    ========================= */
+
+    /* ======================
+        Login  Part End
+    ========================= */
+    .signup_form .new_accc {
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .logsm {
+        background: #0b001b !important;
+        padding: 200px 0 60px !important;
+    }
+
+    /* ======================
+        Login Part End
+    ========================= */
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Menu Part Start */
+    .main_menu .logo img {
+        height: 90px;
+        width: 135px;
+    }
+
+    .main_menu ul li {
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+
+    .main_menu ul li a {
+        font-size: 14px;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0px;
+        padding-left: 5px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .main_menu ul {
+        margin-top: 40px;
+    }
+
+    .main_menu .menu_btn a {
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-left: 10px;
+    }
+
+    /* Menu Part End */
+
+    /* Banner Part Start */
+    #banner .banner_img img {
+        position: absolute;
+        top: 47%;
+        left: 3px;
+        transform: translateY(-50%);
+        height: 390px;
+        max-width: 100%;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 180px;
+        margin-top: -20px;
+        margin-left: 22px;
+    }
+
+    #banner .banner_text h4 {
+        margin-top: -75px;
+        margin-left: 26px;
+    }
+
+    #banner .banner_text p {
+        font-size: 15px;
+        margin-top: -30px;
+        margin-left: -6px;
+    }
+
+    #banner .banner_text .btn {
+        margin-top: 10px;
+        margin-left: 103px;
+    }
+
+    #banner .banner_text {
+        padding-left: 20px;
+    }
+
+    #banner .banner_text .btn a {
+        font-size: 16px;
+        padding: 13px 22px;
+        margin-left: 0px;
+    }
+
+    #banner {
+        padding: 250px 0 180px;
+    }
+
+    /* Banner Part End */
+
+    /* Game Part Start */
+    #games .game_flow .game_col .game_text h2 {
+        font-size: 40px;
+        margin-bottom: 8px;
+    }
+
+    #games .game_flow .game_col .game_text h3 {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+
+    #games .game_flow .game_col .game_text p {
+        font-size: 14px;
+    }
+
+    #games .game_head h3 {
+        font-size: 40px;
+    }
+
+    #games .game_head {
+        margin-top: 15px;
+    }
+
+    #games .game_row .mySwiper .swiper-button-prev {
+        display: none;
+    }
+
+    #games .game_row .mySwiper .swiper-button-next {
+        display: none;
+    }
+
+    #games .game_row .mySwiper .swiper-wrapper .swiper-slide .overlay .overlay_text h3 {
+        font-size: 20px;
+        padding-left: 18px;
+        padding-bottom: 18px;
+    }
+
+    #games .game_row .mySwiper .swiper-wrapper .swiper-slide .overlay .overlay_text a {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-left: 20px;
+    }
+
+    /* Game Part End */
+
+    /* Spin Part Start */
+    #spin .spin_text p span {
+        display: none;
+    }
+
+    #spin .spin_text {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    #spin .spin_text h2 {
+        font-size: 38px;
+        padding-bottom: 15px;
+    }
+
+    #spin .spin_text p {
+        font-size: 15px;
+    }
+
+    #spin .spin_text a {
+        font-size: 18px;
+        padding: 13px 23px;
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+    #spin {
+        padding: 55px 0 40px;
+    }
+
+    /* Spin Part End */
+
+    /* Member Part Start */
+    #member .member_head h2 {
+        font-size: 38px;
+    }
+
+    #member .price_plan .price_head h2 {
+        font-size: 18px;
+    }
+
+    #member .price_plan h3 {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    #member .price_plan h4 {
+        font-size: 40px;
+    }
+
+    #member .price_plan p {
+        padding-bottom: 20px;
+    }
+
+    #member .price_plan ul li {
+        font-size: 15px;
+        padding-bottom: 16px;
+    }
+
+    #member .price_plan .price_join a {
+        font-size: 14px;
+        padding: 13px 22px;
+        margin-left: 2px;
+        left: 49%;
+    }
+
+    #member {
+        padding: 85px 0 90px;
+    }
+
+    /* Member Part End */
+
+    /* Tournament Part Start */
+    #tournament .tournament_head h2 {
+        font-size: 36px;
+        padding-top: 20px;
+    }
+
+    #tournament .tournament_left .card .card-header button span {
+        font-size: 18px;
+    }
+
+    #tournament .tournament_left .card .btn:not(:disabled):not(.disabled) {
+        padding-bottom: 12px;
+    }
+
+    #tournament .tournament_left .card .card-body p {
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+
+    #tournament .tournament_head h2 .effect {
+        bottom: -40px;
+    }
+
+    #tournament .count_row {
+        margin-bottom: 30px;
+    }
+
+    #tournament .counter_text {
+        margin-top: 50px;
+    }
+
+    #tournament .countdown {
+        margin-top: 40px;
+    }
+
+    /* Tournament Part End */
+
+    /* Payment Part Start */
+    #payment .subscribe h3 {
+        font-size: 30px;
+    }
+
+    #payment .subscribe .pay_form .pay_btn {
+        right: 23px;
+    }
+
+    #payment .payment_method h3 {
+        font-size: 30px;
+    }
+
+    #payment .payment_method ul li {
+        padding-right: 6px;
+    }
+
+    /* Payment Part End */
+
+    /* Footer Part Start */
+    #footer .foot_left h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    #footer .foot_left p {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    #footer .foot_mid h2 {
+        font-size: 30px;
+        padding-bottom: 15px;
+        padding-top: 20px;
+    }
+
+    #footer .foot_mid .link1 ul li {
+        padding-bottom: 12px;
+    }
+
+    #footer .foot_last h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #footer {
+        padding: 60px 0 45px;
+    }
+
+    /* Footer Part End */
+    /* ==================================
+              About Part Start
+    ===================================== */
+    #about_banner .about_text h2 {
+        font-size: 40px;
+    }
+
+    #about_banner .about_text a {
+        font-size: 22px;
+    }
+
+    #about_video .game_flow .game_col .game_text h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    #about_video .game_flow .game_col .game_text h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #about_video .game_flow .game_col .game_text p {
+        font-size: 15px;
+    }
+
+    #about_video .play_row .spin_text p span {
+        display: none;
+    }
+
+    #about_video .play_row .spin_text {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+    #about_video {
+        padding: 95px 0 60px;
+    }
+
+    #about_video .game_flow {
+        top: -218px;
+    }
+
+    #about_game .game_head h3 {
+        font-size: 40px;
+    }
+
+    #about_game .game_head {
+        padding-bottom: 50px;
+    }
+
+    #about_game .about_game_slider .slick-dots {
+        left: 42%;
+    }
+
+    #about_game .about_game_slider .game_img .game_overly .game_text h3 {
+        font-size: 21px;
+        padding-bottom: 28px;
+    }
+
+    #about_game .about_game_slider .game_img .game_overly .game_text a {
+        font-size: 18px;
+        padding: 13px 20px;
+    }
+
+    /* ==================================
+              About Part End
+    ===================================== */
+
+    /* ==================================
+              Promotion Part Start
+    ===================================== */
+    .promo .pro_banner {
+        padding: 400px 0 120px;
+    }
+
+    .promo .pro_banner .promo_banner_left h2 {
+        font-size: 72px;
+        left: 54%;
+        top: -168px;
+    }
+
+    .promo .pro_banner .promo_banner_text h1 {
+        font-size: 110px;
+    }
+
+    .promo .pro_banner .promo_banner_text {
+        margin-top: -250px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 {
+        font-size: 40px;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 span {
+        font-size: 56px;
+    }
+
+    .promo .pro_banner .promo_banner_text a {
+        font-size: 18px;
+        padding: 13px 25px;
+        width: 90%;
+    }
+
+    #promo_player .pro_player_offer .pro_offer1 {
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        transform: translateX(-50%);
+        /* animation: inherit; */
+    }
+
+    #promo_player .pro_player_offer .pro_offer2 {
+        position: absolute;
+        right: -3px;
+        /* animation: inherit; */
+    }
+
+    #promo_player .pro_player_offer .pro_offer3 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        /* animation: inherit; */
+    }
+
+    #promo_player .pro_player_offer .pro_offer4 {
+        position: absolute;
+        left: 20px;
+        /* animation: inherit; */
+    }
+
+    @keyframes players {
+        25% {
+            position: absolute;
+            left: 77%;
+            top: 170px;
+        }
+
+        50% {
+            position: absolute;
+            left: 50%;
+            top: 61.5%;
+            transform: translateX(-50%);
+        }
+
+        75% {
+            position: absolute;
+            left: 26.5%;
+            top: 170px;
+        }
+
+        100% {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes players2 {
+        25% {
+            position: absolute;
+            right: 23.5%;
+            top: 61.5%;
+        }
+
+        50% {
+            position: absolute;
+            right: 47%;
+            top: 170px;
+        }
+
+        75% {
+            position: absolute;
+            right: 23.5%;
+            top: 0;
+        }
+
+        100% {
+            position: absolute;
+            right: 0;
+            top: 170px;
+        }
+    }
+
+    @keyframes players3 {
+        25% {
+            position: absolute;
+            left: 26.5%;
+            bottom: 170px;
+        }
+
+        50% {
+            position: absolute;
+            left: 50%;
+            bottom: 340px;
+            transform: translateX(-50%);
+        }
+
+        75% {
+            position: absolute;
+            left: 73.5%;
+            bottom: 170px;
+        }
+
+        100% {
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes players4 {
+        25% {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+        }
+
+        50% {
+            position: absolute;
+            left: 73.5%;
+            top: 170px;
+            transform: translateX(-50%);
+        }
+
+        75% {
+            position: absolute;
+            left: 50%;
+            top: 61.5%;
+            transform: translateX(-50%);
+        }
+
+        100% {
+            position: absolute;
+            left: 0;
+            top: 170px;
+        }
+    }
+
+    #promo_player .promo_player_text {
+        padding-top: 60px;
+    }
+
+    #promo_player .promo_player_text h2 {
+        font-size: 40px;
+    }
+
+    #promo_player .promo_player_text ul {
+        padding-top: 30px;
+    }
+
+
+    #promo_player .promo_player_text ul li {
+        font-size: 19px;
+        padding-bottom: 20px;
+    }
+
+    #bonus .bonus_text h2 {
+        font-size: 40px;
+    }
+
+    #bonus .bonus_text h4 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+
+    #bonus .bonus_text p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    #bonus .bonus_text p span {
+        padding-top: 22px;
+    }
+
+    #bonus {
+        padding: 80px 0 75px;
+    }
+
+    /* ==================================
+              Promotion Part End
+    ===================================== */
+
+    /* ==================================
+              Game Part Start
+    ===================================== */
+    .game_row {
+        padding-top: 75px;
+    }
+
+    .new_games .game_img .game_overly .game_text h3 {
+        font-size: 21px;
+        padding-bottom: 26px;
+    }
+
+    .new_games .game_img .game_overly .game_text a {
+        font-size: 18px;
+        padding: 15px 22px;
+    }
+
+    /* ==================================
+              Game Part End
+    ===================================== */
+
+    /* ==================================
+              Member Part Start
+    ===================================== */
+    .new_member .member_row1 {
+        padding-top: 103px;
+    }
+
+    .new_member .down {
+        margin-top: 70px;
+    }
+
+    .new_member .up1 {
+        position: absolute;
+        top: 37.8%;
+        left: 50%;
+    }
+
+    .new_member {
+        padding: 95px 0 80px !important;
+    }
+
+    /* ==================================
+              Member Part End
+    ===================================== */
+
+    /* ==================================
+              Contact Part Start
+    ===================================== */
+    .new_contact .contact_address .con_icon {
+        width: 85px;
+        height: 85px;
+        line-height: 100px;
+    }
+
+    .new_contact .contact_address .con_icon .map i {
+        font-size: 35px;
+    }
+
+    .new_contact .address_text h3 {
+        font-size: 22px;
+    }
+
+    .new_contact .address_text p {
+        font-size: 18px;
+    }
+
+    .new_contact .address_text {
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    /* ==================================
+              Contact Part End
+    ===================================== */
+
+    /* ==================================
+              Error Part Start
+    ===================================== */
+    .error_main img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ==================================
+              Error Part End
+    ===================================== */
+
+
+    /* ==================================
+              Sign Up Part Start
+    ===================================== */
+    #about_video .sign_flow {
+        top: -307px;
+    }
+
+    .signsm {
+        background: #0b001b !important;
+
+    }
+
+    /* ==================================
+              Sign up Part End
+    ===================================== */
+
+
+    /* ==================================
+              Login Part Start
+    ===================================== */
+    .logsm {
+        background: #0b001b !important;
+
+    }
+
+    .signup_form .new_accc {
+        padding-left: 40px;
+    }
+
+    /* ==================================
+              Login Part End
+    ===================================== */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Menu Part Start */
+    .main_menu .logo img {
+        height: 90px;
+        width: 140px;
+    }
+
+    .main_menu ul li {
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+
+    .main_menu ul li a {
+        font-size: 18px;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .main_menu ul {
+        margin-top: 40px;
+    }
+
+    .main_menu .menu_btn a {
+        font-size: 16px;
+        padding: 12px 20px;
+        margin-left: 10px;
+    }
+
+    /* Menu Part End */
+
+    /* Banner Part Start */
+    #banner .banner_img img {
+        position: absolute;
+        top: 46%;
+        left: 4px;
+        transform: translateY(-50%);
+        height: 450px;
+        max-width: 100%;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 250px;
+        margin-top: -34px;
+        margin-left: 0;
+    }
+
+    #banner .banner_text h4 {
+        margin-top: -75px;
+        margin-left: 6px;
+    }
+
+    #banner .banner_text p {
+        font-size: 15px;
+        margin-top: -30px;
+        margin-left: -6px;
+    }
+
+    #banner .banner_text .btn {
+        margin-top: 10px;
+        margin-left: 103px;
+    }
+
+    #banner .banner_text {
+        padding-left: 20px;
+    }
+
+    #banner .banner_text .btn a {
+        font-size: 18px;
+        padding: 14px 25px;
+        margin-left: 5px;
+    }
+
+    #banner {
+        padding: 250px 0 180px;
+    }
+
+    /* Banner Part End */
+
+    /* Game Part Start */
+    #games .game_row .mySwiper .swiper-button-prev {
+        display: none;
+    }
+
+    #games .game_row .mySwiper .swiper-button-next {
+        display: none;
+    }
+
+    /* Game Part End */
+
+    #spin .spin_text {
+        padding-top: 34px;
+        padding-left: 0px;
+    }
+
+    #member .price_plan .price_join a {
+        font-size: 20px;
+        padding: 15px 26px;
+        margin-left: 0px;
+        left: 50%;
+    }
+
+    /* TournaMent Part Start */
+    #tournament .counter_text h4 {
+        font-size: 18px;
+    }
+
+    #tournament .countdown span {
+        font-size: 16px;
+    }
+
+    #tournament .countdown p {
+        font-size: 16px;
+    }
+
+    #tournament .countdown {
+        height: 60px;
+        width: 60px;
+        margin-left: 15px;
+    }
+
+    /* TournaMent Part End */
+
+    #payment .subscribe .pay_form .pay_btn {
+        right: 47px;
+    }
+
+    #payment .payment_method ul li {
+        padding-right: 13px;
+    }
+
+    /* ==================================
+                Home Page End
+    ===================================== */
+
+    /* ==================================
+                About US Page Start
+    ===================================== */
+    #about_video .play_row .spin_text {
+        padding-top: 60px;
+        padding-left: 10px;
+    }
+
+    #about_game .about_game_slider .slick-dots {
+        left: 45%;
+    }
+
+    /* ==================================
+                About US Page End
+    ===================================== */
+
+    /* ==================================
+                Promotion Page Start
+    ===================================== */
+    .promo .pro_banner .promo_banner_left h2 {
+        font-size: 101px;
+        left: 33%;
+        top: -390px;
+    }
+
+    .promo .pro_banner .promo_banner_text h1 {
+        font-size: 160px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 {
+        font-size: 50px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .promo .pro_banner .promo_banner_text h2 span {
+        font-size: 82px;
+    }
+
+
+    .promo .pro_banner {
+        padding: 675px 0 130px;
+    }
+
+    .promo .pro_banner .promo_banner_text {
+        margin-top: -447px;
+    }
+
+
+    #promo_player .promo_player_text {
+        padding-top: 95px;
+    }
+
+    #promo_player .promo_player_text h2 {
+        font-size: 40px;
+    }
+
+    #promo_player .promo_player_text ul {
+        padding-top: 42px;
+    }
+
+    .lgp {
+        width: 70.667%;
+    }
+
+    /* ==================================
+                Promotion Page End
+    ===================================== */
+
+    /* ==================================
+                Game Page Start
+    ===================================== */
+    .new_games .game_row {
+        padding-top: 50px;
+    }
+
+    /* ==================================
+                Game Page End
+    ===================================== */
+
+    /* ==================================
+                Member Page Start
+    ===================================== */
+    .new_member .price_plan .price_join a {
+        padding: 15px 28px;
+        margin-left: 0px;
+        left: 49%;
+
+    }
+
+    /* ==================================
+                Member Page End
+    ===================================== */
+
+    /* ==================================
+                Contact Page End
+    ===================================== */
+    .new_contact .contact_address .con_icon {
+        width: 90px;
+        height: 90px;
+        line-height: 100px;
+    }
+
+    .new_contact .contact_address .con_icon .map i {
+        font-size: 38px;
+    }
+
+    .new_contact .address_text p {
+        font-size: 18px;
+    }
+
+    .new_contact .address_text {
+        padding-left: 10px;
+    }
+
+    .new_contact .address_text h3 {
+        padding-bottom: 10px;
+    }
+
+    /* ==================================
+                Contact Page End
+    ===================================== */
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /* Menu Part Start */
+    .main_menu .logo img {
+        height: 90px;
+        width: 140px;
+    }
+
+    .main_menu ul li {
+        padding-left: 0px;
+        padding-right: 5px;
+    }
+
+    .main_menu ul li a {
+        font-size: 18px;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 5px;
+        padding-left: 20px;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .main_menu ul {
+        margin-top: 40px;
+    }
+
+    .main_menu .menu_btn a {
+        font-size: 18px;
+        padding: 13px 21px;
+        margin-left: 13px;
+    }
+
+    /* Menu Part End */
+
+    /* Banner Part Start */
+
+    #banner .banner_img img {
+        top: 45%;
+        left: 18px;
+        height: 570px;
+    }
+
+    #banner .banner_text {
+        padding-left: 0px;
+    }
+
+    #banner .banner_text h1 {
+        font-size: 320px;
+    }
+
+    /* Banner Part End */
+
+    #spin .spin_text {
+        padding-top: 70px;
+        padding-left: 0px;
+    }
+
+    #payment .subscribe .pay_form .pay_btn {
+        right: 65px;
+    }
+
+    /* ===============================
+            Home Page End
+    ================================== */
+
+
+    /* ===============================
+            Promo Page Start
+    ================================== */
+    .promo .pro_banner .promo_banner_text h1 {
+        font-size: 193px;
+    }
+
+    /* ===============================
+            Promo Page End
+    ================================== */
+}
+
+/* Iphone Xr/11 */
+@media (min-width: 414px) and (max-width: 896px) {
+    #spin .spin_text a {
+        margin-left: 135px !important;
+    }
+
+    #spin .spin_text p {
+        font-size: 15px !important;
+    }
+
+    #payment .subscribe .pay_form .pay_btn {
+        right: 31px !important;
+    }
+
+    #promo_player .pro_player_offer .pro_offer4 {
+        left: 105px !important;
+    }
+}
+
+
+
+
+@media (min-width: 1400px) {}

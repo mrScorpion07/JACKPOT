@@ -1,0 +1,115 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+               About Games Part Start
+================================================*/
+#about_game {
+    padding: 95px 0 100px;
+    background: $bg;
+
+    .game_head {
+        padding-bottom: 60px;
+
+        h3 {
+            @include fs(#fdb803, 48px, 400, $anton);
+            background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 40px #4d0148);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #4d0148;
+        }
+    }
+
+    .about_game_slider {
+        position: relative;
+
+        .game_img {
+            position: relative;
+
+            &:hover {
+                .game_overly {
+                    transform: scale(1)
+                }
+            }
+
+
+
+
+
+            .game_overly {
+                @include after_tl(0, 0, 100%, 100%, rgba(21, 0, 53, 0.8));
+                transform: scale(0);
+                transition: all linear .4s;
+
+                .game_text {
+                    text-align: center;
+                    @include middle();
+
+                    h3 {
+                        @include fs($wh, 24px, 400, $anton);
+                        padding-bottom: 30px;
+                        transition: all linear .4s
+                    }
+
+                    a {
+                        @include fs($wh, 20px, 400, $anton);
+                        padding: 15px 26px;
+                        line-height: 1;
+                        border-radius: 5px;
+                        background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                        box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                        text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                        transition: all linear .4s;
+
+                        &:hover {
+                            background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                            box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                            text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                        }
+                    }
+                }
+            }
+        }
+
+        .slick-slide {
+            padding: 0 15px;
+        }
+
+        .slick-dots {
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            left: 47%;
+            bottom: -36px;
+        }
+
+        .slick-dots li button {
+            height: 12px;
+            width: 12px;
+            font-size: 0;
+            border-radius: 50%;
+            cursor: pointer;
+            background: #9e4efc;
+            background: linear-gradient(to bottom, #9e4efc 0%, #207cca 100%, #207cca 100%, #570dc8 100%);
+            border: none;
+            box-shadow: 0px 2px 0px 0px rgba(58, 0, 144, 1);
+            outline: 0;
+            margin: 0 5px;
+        }
+
+        .slick-dots .slick-active button {
+            width: 15px;
+            height: 15px;
+            background: #ff39dc;
+            background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+            box-shadow: 0px 2px 0px 0px rgba(102, 19, 85, 1);
+        }
+    }
+}
+
+/*==============================================
+              About Games Part End
+================================================*/

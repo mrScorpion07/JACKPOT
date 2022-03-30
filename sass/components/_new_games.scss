@@ -1,0 +1,56 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+              New Games Part Start
+================================================*/
+.new_games {
+    .game_img {
+        position: relative;
+        margin-bottom: 20px;
+
+        &:hover {
+            .game_overly {
+                transform: scale(1)
+            }
+        }
+
+        .game_overly {
+            @include after_tl(0, 0, 100%, 100%, rgba(21, 0, 53, 0.8));
+            transform: scale(0);
+            transition: all linear .4s;
+
+            .game_text {
+                text-align: center;
+                @include middle();
+
+                h3 {
+                    @include fs($wh, 24px, 400, $anton);
+                    padding-bottom: 30px;
+                    transition: all linear .4s
+                }
+
+                a {
+                    @include fs($wh, 20px, 400, $anton);
+                    padding: 15px 26px;
+                    line-height: 1;
+                    border-radius: 5px;
+                    background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                    box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                    text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                    transition: all linear .4s;
+
+                    &:hover {
+                        background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                        box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                        text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*==============================================
+              New Games Part End
+================================================*/

@@ -1,0 +1,62 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Banner Part Start
+================================================*/
+#banner {
+    background: $bg;
+    padding: 250px 0 240px;
+    position: relative;
+
+    .banner_img {
+        img {
+            position: absolute;
+            top: 47%;
+            left: 129px;
+            transform: translateY(-50%);
+            height: 600px;
+        }
+    }
+
+    .banner_text {
+        padding-left: 60px;
+
+        h4 {
+            @include fs($wh, 20px, 400, $nunito);
+            filter: drop-shadow(0 0 30px #4d0148);
+        }
+
+        h1 {
+            @include fs(#fcb100, 330px, 400, $anton);
+            background: -webkit-linear-gradient(top, #fcaf25 45%, #e38421 48%, #fcb100 85%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #4d0148;
+            filter: drop-shadow(0 0 45px #4d0148);
+            margin-top: -43px;
+            margin-left: -7px;
+        }
+
+        p {
+            @include fs($wh, 16px, 400, $nunito);
+            text-align: center;
+            line-height: 26px;
+            margin-top: -36px;
+            margin-left: -6px;
+        }
+
+        .btn {
+            transition: all linear .3s;
+            margin-top: 20px;
+            margin-left: 160px;
+            @include btn()
+        }
+    }
+}
+
+/*==============================================
+                Banner Part End
+================================================*/

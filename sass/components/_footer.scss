@@ -1,0 +1,230 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Footer Part Start
+================================================*/
+#footer {
+    padding: 58px 0 60px;
+    background: #0b001b;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 1);
+
+    .foot_left {
+        h2 {
+            @include fs($wh, 32px, 400, $anton);
+            // text-shadow: 3px 3px 0px rgba(229, 223, 236, 0.8);
+            padding-bottom: 25px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #b49bd6cc;
+        }
+
+        p {
+            @include fs($wh, 16px, 300, $nunito);
+            line-height: 26px;
+            padding-bottom: 22px;
+        }
+
+        ul {
+            li {
+                width: 50px;
+                height: 50px;
+                background: #9e4efc;
+                background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+                box-shadow: 0px 3px 0px 0px rgba(58, 0, 144, 1);
+                text-align: center;
+                line-height: 50px;
+                margin-right: 12px;
+                transition: all linear .3s;
+                cursor: pointer;
+
+                &:hover {
+                    background: #ff39dc;
+                    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+                    box-shadow: 0px 3px 0px 0px rgba(102, 19, 85, 1);
+
+                    i {
+                        filter: drop-shadow(0px 6px 0 #4d0148);
+                        text-shadow: 3px 3px 0 rgba(166, 0, 133, 0.8);
+                    }
+                }
+
+                i {
+                    font-size: 20px;
+                    color: $wh;
+                    filter: drop-shadow(0px 6px 0px rgba(58, 0, 144, 1));
+                    text-shadow: 2px 2px 0 rgba(88, 19, 184, 0.8);
+                    transition: all linear .3s;
+                }
+
+
+            }
+        }
+    }
+
+    .foot_mid {
+        h2 {
+            @include fs($wh, 32px, 400, $anton);
+            // text-shadow: 3px 3px 0px rgba(229, 223, 236, 0.8);
+            padding-bottom: 25px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #b49bd6cc;
+        }
+
+        .link1 {
+            ul {
+                li {
+                    padding-bottom: 20px;
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
+                    a {
+                        @include fs($wh, 16px, 600, $nunito);
+                        transition: all linear .3s;
+
+                        &:hover {
+                            color: #ff39dc;
+                        }
+                    }
+                }
+            }
+        }
+
+        .link2 {
+            ul {
+                li {
+                    padding-bottom: 20px;
+
+                    &:last-child {
+                        padding-bottom: 0;
+                    }
+
+                    a {
+                        @include fs($wh, 16px, 600, $nunito);
+                        transition: all linear .3s;
+
+                        &:hover {
+                            color: #ff39dc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .foot_last {
+        h2 {
+            @include fs($wh, 32px, 400, $anton);
+            // text-shadow: 3px 3px 0px rgba(229, 223, 236, 0.8);
+            padding-bottom: 25px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #b49bd6cc;
+        }
+
+        .brand1 {
+            padding-bottom: 20px;
+
+            li {
+                p {
+                    @include fs($wh, 16px, 400, $nunito);
+                    text-align: left;
+                    padding-left: 20px;
+                    padding-top: 12px;
+
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .brand2 {
+
+            li {
+                p {
+                    @include fs($wh, 16px, 400, $nunito);
+                    text-align: left;
+                    padding-left: 20px;
+                    padding-top: 12px;
+
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#foot_bot {
+    padding: 20px 0;
+    background: #0b001b;
+    position: relative;
+
+    &::after {
+        @include after_tl(-3px, 0, 100%, 3px, #000000);
+        background: linear-gradient(to bottom, #000000 67%, #290a59 67%);
+        color: #fcb100;
+    }
+
+    .bot_text {
+        p {
+            @include fs($wh, 16px, 400, $nunito);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #b49bd6cc;
+        }
+    }
+
+    .effect {
+        position: absolute;
+        left: 0;
+        top: -15px;
+        z-index: 99;
+        animation: lineshine3 10s infinite;
+        animation-direction: alternate;
+
+        @keyframes lineshine3 {
+            form {
+                left: 0;
+            }
+
+            to {
+                left: 95%;
+            }
+        }
+    }
+}
+
+.bc_top {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+    box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+    transition: all linear .4s;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-weight: 900;
+    font-size: 35px;
+    transition: all linear .3s;
+    color: white;
+    cursor: pointer;
+    z-index: 999;
+    display: none;
+
+    &:hover {
+
+        background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+        box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+        text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+        color: white;
+    }
+}
+
+/*==============================================
+                Footer Part End
+================================================*/

@@ -1,0 +1,235 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+            Promotion Player Part Start
+================================================*/
+#promo_player {
+    background: #0b001b;
+    padding: 60px 0 60px;
+
+    .pro_player_offer {
+        position: relative;
+        height: 570px;
+
+        .pro_offer_inner {
+            position: relative;
+            width: 270px;
+
+            .overlay {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                padding-top: 120px;
+
+                h4 {
+                    @include fs(#fcb100, 23px, 400, $anton);
+                    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    filter: drop-shadow(0 0 25px #4d0148);
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #4d0148;
+                    padding-bottom: 5px;
+                }
+
+                h3 {
+                    @include fs(#fcb100, 37px, 400, $anton);
+                    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    filter: drop-shadow(0 0 25px #4d0148);
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #4d0148;
+                    padding-bottom: 5px;
+                }
+
+                p {
+                    font-size: 40px;
+                    color: $wh;
+                    font-weight: 400;
+                    font-family: 'Great Vibes', cursive;
+                    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+                    filter: drop-shadow(0 0 25px #4d0148);
+                    padding: 0 39px;
+                    border-radius: 12px;
+                    text-shadow: 5px 3px 0px #ef8d22;
+                    line-height: 23px;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .pro_offer1 {
+            position: absolute;
+            left: 40px;
+            top: 0;
+            animation: players 16s infinite;
+        }
+
+        .pro_offer2 {
+            position: absolute;
+            top: 170px;
+            right: 75px;
+            animation: players2 16s infinite;
+        }
+
+        .pro_offer3 {
+            position: absolute;
+            left: 40px;
+            bottom: 0;
+            animation: players3 16s infinite;
+        }
+
+        .pro_offer4 {
+            position: absolute;
+            top: 170px;
+            left: -250px;
+            animation: players4 16s infinite;
+        }
+
+        @keyframes players {
+            25% {
+                position: absolute;
+                left: 39%;
+                top: 170px;
+            }
+
+            50% {
+                position: absolute;
+                left: -40px;
+                top: 58%;
+            }
+
+            75% {
+                position: absolute;
+                left: -250px;
+                top: 170px;
+            }
+
+            100% {
+                position: absolute;
+                left: -40px;
+                top: 0;
+            }
+        }
+
+        @keyframes players2 {
+            25% {
+                position: absolute;
+                right: 48.4%;
+                top: 58%;
+            }
+
+            50% {
+                position: absolute;
+                right: 95.5%;
+                top: 170px;
+            }
+
+            75% {
+                position: absolute;
+                right: 48%;
+                top: 0;
+            }
+
+            100% {
+                position: absolute;
+                right: 75px;
+                top: 170px;
+            }
+        }
+
+        @keyframes players3 {
+            25% {
+                position: absolute;
+                left: -250px;
+                bottom: 160px;
+            }
+
+            50% {
+                position: absolute;
+                left: -40px;
+                bottom: 330px;
+            }
+
+            75% {
+                position: absolute;
+                left: 39%;
+                bottom: 160px;
+            }
+
+            100% {
+                position: absolute;
+                left: -40px;
+                bottom: 0;
+            }
+        }
+
+        @keyframes players4 {
+            25% {
+                position: absolute;
+                left: -40px;
+                top: 0;
+            }
+
+            50% {
+                position: absolute;
+                left: 39%;
+                top: 170px;
+            }
+
+            75% {
+                position: absolute;
+                left: -40px;
+                top: 58%;
+            }
+
+            100% {
+                position: absolute;
+                left: -250px;
+                top: 170px;
+            }
+        }
+
+    }
+
+    .promo_player_text {
+        padding-top: 118px;
+
+        h2 {
+            @include fs(#fdb803, 48px, 400, $anton);
+            background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 40px #4d0148);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #4d0148;
+        }
+
+        ul {
+            padding-top: 50px;
+
+            li {
+                @include fs($wh, 20px, 400, $nunito);
+                padding-bottom: 23px;
+
+                &:last-child {
+                    padding-bottom: 0;
+
+                }
+            }
+        }
+    }
+
+}
+
+/*==============================================
+            Promotion Player Part End
+================================================*/

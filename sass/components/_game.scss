@@ -1,0 +1,245 @@
+@import '../mixins/mixin';
+@import '../variables/variable';
+
+/*==============================================
+                Games Part Start
+================================================*/
+#games {
+    padding: 176px 0 100px;
+    background: #0b001b;
+
+
+    .posi {
+        position: relative;
+    }
+
+    .flow_shad {
+        filter: drop-shadow(0px 6px 0px rgba(58, 0, 144, 1));
+    }
+
+    .game_flow {
+        clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0 96%);
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: -296px;
+
+        .game_col {
+            padding: 45px 20px;
+            background: #6116d0;
+            box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+            background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
+            filter: drop-shadow(30px 10px 4px #4444dd);
+
+            .game_text {
+                h2 {
+                    @include fs(#fdb803, 50px, 400, $anton);
+                    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    filter: drop-shadow(0 0 40px #4d0148);
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #4d0148;
+                    margin-bottom: 15px
+                }
+
+                h3 {
+                    @include fs(#fff, 32px, 400, $anton);
+                    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+                    margin-bottom: 10px
+                }
+
+                p {
+                    @include fs(#fff, 16px, 400, $nunito);
+                }
+            }
+        }
+    }
+
+    .game_head {
+        margin-top: 30px;
+        padding-bottom: 45px;
+
+        h3 {
+            @include fs(#fdb803, 48px, 400, $anton);
+            background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 40px #4d0148);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #4d0148;
+        }
+    }
+
+    .game_row {
+        .mySwiper {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            position: relative;
+
+            .swiper-wrapper {
+
+                // display: flex;
+                // flex-wrap: wrap;
+                // justify-content: space-between;
+                .swiper-slide {
+                    background-position: center;
+                    background-size: cover;
+                    width: 220px;
+                    height: 300px;
+                    transition: all linear .4s;
+
+                    // -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, rgba(218, 0, 189, 0.4) !important);
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        background: rgba(21, 0, 53, 0.7);
+                        transform: scale(0);
+                        transition: all linear .5s;
+
+                        .overlay_text {
+                            position: absolute;
+                            left: 16%;
+                            top: 36%;
+
+                            h3 {
+                                @include fs($wh, 24px, 400, $anton);
+                                padding-left: 9px;
+                                padding-bottom: 18px
+                            }
+
+                            a {
+                                @include fs($wh, 20px, 400, $anton);
+                                padding: 12px 20px;
+                                line-height: 1;
+                                border-radius: 5px;
+                                margin-left: 15px;
+                                background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                                box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                                text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                                transition: all linear .3s;
+
+                                &:hover {
+                                    background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                                    box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                                    text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+                                }
+                            }
+                        }
+
+
+
+                    }
+
+                }
+
+                // &:hover {
+                //     .overlay {
+                //         transform: scaleX(1);
+                //     }
+                // }
+
+                .swiper-slide-active {
+                    transition-duration: 0ms;
+                    transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1.3) !important;
+
+                    .overlay {
+                        transform: scaleX(1);
+                    }
+                }
+
+                .swiper-slide-prev {
+                    transition-duration: 0ms;
+                    transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1) !important;
+
+                }
+
+                .swiper-slide-next {
+                    transition-duration: 0ms;
+                    transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) scale(1) !important;
+
+                }
+            }
+
+            .swiper-button-next {
+                position: absolute;
+                top: 50%;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 50px;
+                background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                transition: all linear .4s;
+
+                &:hover {
+                    background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                    box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                    text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+
+                    &::after {
+                        color: $wh;
+                    }
+                }
+
+                &::after {
+                    color: white;
+                    font-weight: 900;
+                    font-size: 35px;
+                    transition: all linear .3s;
+                }
+            }
+
+            .swiper-button-prev {
+                position: absolute;
+                top: 50%;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 50px;
+                background: linear-gradient(to bottom, #9b4cfa 0%, #5c11cb 100%);
+                box-shadow: 0 6px 0 0 rgba(58, 0, 144, 1);
+                text-shadow: 5px 5px 0 rgba(88, 19, 184, 0.8);
+                transition: all linear .4s;
+
+                &:hover {
+                    background: linear-gradient(to bottom, #fa35d6 0%, #ab048a 100%);
+                    box-shadow: 0 6px 0 0 rgba(102, 19, 85, 1);
+                    text-shadow: 5px 5px 0 rgba(166, 0, 133, 0.8);
+
+                    &::after {
+                        color: $wh;
+                    }
+                }
+
+                &::after {
+                    color: white;
+                    font-weight: 900;
+                    font-size: 35px;
+                    transition: all linear .3s;
+                }
+            }
+
+        }
+
+    }
+}
+
+/*==============================================
+                Games Part End
+================================================*/
